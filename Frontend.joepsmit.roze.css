@@ -1,0 +1,112 @@
+a:hover {
+    text-decoration: underline;
+}
+header a {
+    color: #444;
+    text-decoration: none;
+}
+body {
+    color: #444;
+    font-family: 'Open Sans',sans-serif;
+}
+body > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+body > div > header {
+    background-color: #FC0;
+    clear: left;
+    display: inline-block;
+    position: static;
+    vertical-align: top;
+    width: 100%;
+}
+fieldset {
+    background-color: #FC0;
+    display: flex;
+    width: 75%;
+}
+body > footer {
+    background-color: #FC0;
+    display: flex;
+
+}
+footer section {
+    width: 30%;
+}
+#search form input {
+    width: 90%
+}
+footer a {
+    color: #444;
+    text-decoration: none;
+}
+form > input {
+    height:auto;
+    width: inherit;
+}
+label {
+    padding: .5em;
+}
+nav ul {
+    margin-left: -1.5em;
+}
+nav ul li {
+    display: inline;
+    font-weight: bold;
+    margin-right: 1em;
+}
+div > header h1 {
+    margin-left: .5em;
+}
+div > header p {
+    margin-left: 1em;
+}
+div > header img {
+    height: auto;
+    margin-left: 1em;
+    width: 90%;
+}
+form > input {
+    font-weight: bold;
+    height: 2em;
+    margin: .5em;
+    width: 20em;
+}
+section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+div > article {
+    background-color: #FC0;
+    flex-grow: 1;
+    margin: .5em;
+    padding: .5em;
+    width: 15em
+}
+@media (min-width: 600px) {
+    body > footer {
+        background-color: #FC0;
+        display: flex;
+    }
+    footer section {
+        width: 30%;
+    }
+    #search form input {
+        width: 100%
+    }
+}
+@media (min-width: 800px) {
+    div > header img {
+        height: 10em;
+        width: auto;
+    }
+    form > fieldset {
+        width: 50%;
+    }
+}
+
+
+
+
